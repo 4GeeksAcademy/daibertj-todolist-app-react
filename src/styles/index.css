@@ -10,3 +10,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 100px;
+    background-color: rgb(245, 245, 245);
+
+}
+ul{
+    padding: 0px;
+}
+ul li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 5px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 50;
+    background-image: linear-gradient(to left, #9a3c3c, #f0cdcd);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+input{
+    border: none;
+    width: 100%;
+}
